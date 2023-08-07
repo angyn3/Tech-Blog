@@ -110,8 +110,7 @@
   display :flex;
   justify-content: space-around;
   color: var(--primary);
-
-    background-color: var(--dark);
+  background-color: var(--dark);
   }
   
   .nav-item {
