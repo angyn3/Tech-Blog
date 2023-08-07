@@ -31,7 +31,6 @@ To start the server, run the following command:
 
 `node server.js`
 
-
 ## Language and Technology Used
 
 Javascript
