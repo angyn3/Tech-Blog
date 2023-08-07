@@ -5,9 +5,9 @@
 :root {
     --primary: #ffffff;
     --secondary: #9caea9;
-    --tertiary: #788585;
-    --light-dark: #6f6866;
-    --dark: #38302e;
+    --tertiary: #EA738D;
+    --light-dark: #89ABE3;
+    --dark: #89ABE3;
     --border-radius: 0.3rem;
   }
   
@@ -32,7 +32,6 @@
   h4,
   h5,
   h6 {
-    /* font-weight: 700; */
     margin: 0;
     color: var(--dark);
     line-height: 1.25;
@@ -108,10 +107,9 @@
   }
   
   .navbar {
-    /* width: 100%; */
- display :flex;
- justify-content: space-around;
- color: var(--primary);
+  display :flex;
+  justify-content: space-around;
+  color: var(--primary);
 
     background-color: var(--dark);
   }
@@ -168,7 +166,6 @@
     text-decoration: none;
   }
   
-  /* CARDS */
   .card {
     margin: 0 0 20px 0;
     border: 3px solid var(--dark);
@@ -186,7 +183,6 @@
     padding: 1%;
   }
   
-  /* FORM */
   .form-label,
   .form-input,
   .form-textarea {
@@ -207,7 +203,6 @@
     border-radius: var(--border-radius);
   }
   
-  /* HEIGHT / WIDTH UTILS */
   .min-100-vh {
     min-height: 100vh;
   }
@@ -216,12 +211,10 @@
     min-width: 100vw;
   }
   
-  /* FONT UTILS */
   .text-uppercase {
     text-transform: uppercase;
   }
   
-  /* FLEX CONTENT */
   .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -317,7 +310,6 @@
     flex: 0 0 100%;
   }
   
-  /* col-sm */
   @media screen and (min-width: 640px) {
     .col-sm-1 {
       flex: 0 0 calc(100% * 1 / 12 - 2%);
@@ -368,7 +360,6 @@
     }
   }
   
-  /* col-md */
   @media screen and (min-width: 768px) {
     .col-md-1 {
       flex: 0 0 calc(100% * 1 / 12 - 2%);
@@ -419,7 +410,6 @@
     }
   }
   
-  /* col-lg */
   @media screen and (min-width: 992px) {
     .col-lg-1 {
       flex: 0 0 calc(100% * 1 / 12 - 2%);
@@ -470,7 +460,6 @@
     }
   }
   
-  /* col-xl */
   @media screen and (min-width: 1200px) {
     .col-xl-1 {
       flex: 0 0 calc(100% * 1 / 12 - 2%);
