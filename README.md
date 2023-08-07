@@ -17,28 +17,20 @@
 
 
 ## Description
-A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
+A CMS-style blog site similar to a wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well
 
 ## Installation
 To set up the project on your local machine, follow these steps:
 
 1.Clone the repository: git clone <repository_url>
-2.Navigate to the project directory: cd Tech-savvy
+2.Navigate to the project directory: cd Tech-Blog
 3.Install the dependencies: npm install
-
-`npm i`
-`npm run seed`
-`npm run watch`
 
 ## Usage
 To start the server, run the following command:
 
-`node  .\seeds\seed.js`
+`node server.js`
 
-`npx nodemon server.js`
-
-
-.
 
 ## Language and Technology Used
 
