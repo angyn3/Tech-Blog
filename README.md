@@ -22,9 +22,9 @@ A CMS-style blog site similar to a wordpress site, where developers can publish 
 ## Installation
 To set up the project on your local machine, follow these steps:
 
-1.Clone the repository: git clone <repository_url>
-2.Navigate to the project directory: cd Tech-Blog
-3.Install the dependencies: npm install
+1. Clone the repository: git clone <repository_url>
+2. Navigate to the project directory: cd Tech-Blog
+3. Install the dependencies: npm install
 
 ## Usage
 To start the server, run the following command:
