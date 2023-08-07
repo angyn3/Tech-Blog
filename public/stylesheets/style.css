@@ -1,8 +1,4 @@
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
 
 
 
@@ -140,19 +136,11 @@
   
   .app-title {
     font-size: 3rem;
-    
-    /* color: var(--primary); */
-
     padding: 0 10px;
     display: inline-block;
     border-radius: var(--border-radius);
-    
-  }
-  
-  /* .app-title a {
-    color: var(--dark);
-  } */
-  
+      } 
+ 
   .list-group {
     padding: 1%;
   }
